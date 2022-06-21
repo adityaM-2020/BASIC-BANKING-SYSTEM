@@ -1,0 +1,189 @@
+#title {
+  background-color: #e23da6;
+  color: #fff;
+  height: 550px;
+  font-family: "Georgia";
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-family: "Georgia";
+}
+
+p {
+  color: #8F8F8F;
+}
+
+.container-fluid {
+  padding: 1% 15% 4%;
+  background-color: #8510c9;
+  color: #fff;
+	height: 100px;
+}
+
+.name{
+font-size: 1.3rem;
+font-weight: 900;
+line-height: 1;
+color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Buttons */
+.money-button{
+    margin: 5% 3% 5% 0;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    font-family: cursive;
+    background-color: #fff;
+    color: #FF4C68!important;
+    transition: 0.3s;
+}
+
+.user-pay-button{
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  font-size: 132%;
+  background-color: #fff;
+  color: #FF4C68!important;
+  transition: 0.3s;
+}
+.user-trans-button{
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  font-size: 132%;
+  transition: 0.3s;
+}
+
+/* Title Image */
+.title-image {
+  width: 95%;
+  position: absolute;
+  right: 10%;
+  left: 40%;
+}
+
+/* Features Section */
+#features {
+  padding: 7% 15%;
+  font-family: "Montserrat-bold";
+  font-size: 1.5rem;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5% 0;
+}
+
+.icon {
+  color: #EF8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #FF4C68;
+}
+
+/* CTA Section */
+#cta {
+  text-align: center;
+  background-color: #FF4C68;
+  font-family: "Montserrat";
+  padding: 7% 15%;
+}
+
+.cta-heading {
+  font-size: 3.5rem;
+  color: #fff;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+#footer {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.footer-font {
+  margin: 20px 10px;
+}
+
+.github{
+    color: #24292e;
+}
+
+.linkedin{
+    color: #0077b5;
+}
+
+.contact-icons li{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+}
+
+/*some new css*/
+
+.btn-info{
+    padding: 0 1.2rem;
+    background-color: rgb(78, 153, 223)!important;
+    color: #fff!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.btn-info:hover{
+  color: #f9f7f4!important;
+  background-color: #04c3ee;
+  border-color: #5b288e!important;
+}
+
+/*For table of Users*/
+table {
+  background-color:#cccaad;
+}
+thead{
+  background-color: #e1a99f;
+}
